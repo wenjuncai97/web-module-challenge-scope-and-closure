@@ -28,11 +28,13 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
+  In counter 1, the variable count is only accessable inside the function counterMaker. In coutner 2, the variable count is outside the function counter2 so it is still accessible inside the function counter2. 
   
   2. Which of the two uses a closure? How can you tell?
-  
+  Counter2 uses closure because since the variable count isn't defined inside the function counter2, it uses closure to find the value of it outside the function.
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+  Counter1 would be preferred unless you need to write a for loop? not sure.
 */
 
 // counter1 code
