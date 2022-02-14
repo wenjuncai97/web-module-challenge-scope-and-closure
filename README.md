@@ -60,7 +60,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). Closure gives a function access to an outer function's scope from within its inner function. 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,6 +82,7 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used on line 71 inside console.log(`{$name}). I know it is using closure because the name variable isn't defined inside the return function, which is where the console.log is.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 c. What is the lexical scope of `newRoll`? 
 
